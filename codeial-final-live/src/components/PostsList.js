@@ -77,3 +77,4 @@ PostsList.propTypes = {
 };
 
 export default PostsList;
+

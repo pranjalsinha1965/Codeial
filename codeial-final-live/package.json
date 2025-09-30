@@ -20,11 +20,9 @@
     "yarn": "^1.22.22"
   },
   "scripts": {
-    "script": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
-    "_comment": "react-scripts start",
+    "start": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +45,7 @@
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
     "babel-loader": "^10.0.0",
+    "cross-env": "^10.1.0",
     "eslint": "^8.57.1",
     "eslint-config-react-app": "^7.0.1",
     "react-refresh": "^0.17.0",
