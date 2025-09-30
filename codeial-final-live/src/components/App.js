@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 import { fetchPosts } from '../actions/posts';
-import { PostsList } from './';
+import  PostsList  from './PostsList';
 
 class App extends React.Component {
   componentDidMount() {
@@ -14,6 +14,18 @@ class App extends React.Component {
     const { posts } = this.props;
     return (
       <div>
+        <nav className="nav">
+          <div className="left-div">
+            <img src = "https://ninjasfiles.s3.amazonaws.com/0000000000003454.png" alt = "logo"/>
+          </div>
+          <div className="search-container">
+            <img 
+            className="search-icon"></img>
+            <input placeholder="Search"/>
+          </div>
+          <div className="search-container"></div>
+          <div className="right-nav"></div> 
+        </nav>
         <PostsList posts={posts} />
       </div>
     );
