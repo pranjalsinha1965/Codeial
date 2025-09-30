@@ -43,7 +43,6 @@ class PostsList extends Component {
               </div>
               <div className="post-comments-list">
                 <div className="post-comments-list">
-                <div className="post-comments-item">
                   <div className="post-comment-header">
                     <span className="post-comment-author">Bill</span>
                     <span className="post-comment-time">a minute ago</span>
@@ -51,7 +50,6 @@ class PostsList extends Component {
                   </div>
                   <div className="post-comment-content">Random comment</div>
                 </div>
-              </div>
               </div>
             </div>
           </div>
