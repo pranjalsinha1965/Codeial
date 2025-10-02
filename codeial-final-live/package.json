@@ -2,6 +2,25 @@
   "name": "codeial-final-live",
   "version": "0.1.0",
   "private": true,
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "homepage": "https://github.com/pranjalsinha1965/Codeial#readme",
+  "bugs": {
+    "url": "https://github.com/pranjalsinha1965/Codeial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranjalsinha1965/Codeial.git"
+  },
+  "license": "ISC",
+  "author": "Pranjal Sinha",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
@@ -19,11 +38,18 @@
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.22"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "babel-loader": "^10.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0",
+    "react-refresh": "^0.17.0",
+    "webpack-dev-server": "^5.2.2"
   },
   "eslintConfig": {
     "extends": [
@@ -42,13 +68,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
-    "babel-loader": "^10.0.0",
-    "eslint": "^8.57.1",
-    "eslint-config-react-app": "^7.0.1",
-    "react-refresh": "^0.17.0",
-    "webpack-dev-server": "^5.2.2"
   }
 }
